@@ -88,7 +88,5 @@ console.log("¿Puede conducir?", edad >= 18 || tienePermiso);
 let usuario = "admin";
 let password = "1234";
 
-console.log(
-  "¿Usuario y contraseña correctos?",
-  usuario === "admin" && password === "1234"
-);
+console.log(" Usuario es",usuario, "y contraseña es:", password);
+
