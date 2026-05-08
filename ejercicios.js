@@ -82,7 +82,7 @@ console.log("¿número 2 es mayor que número 1?", num2 > num1);
 edad = 17; //aquí evite el let porque ya tenía un let edad definido
 let tienePermiso = true;
 
-console.log("¿Puede conducir?", edad >= 18 || tienePermiso);
+console.log("¿Puede conducir ?", edad >= 18 || tienePermiso);
 
 
 // 11 Usuario y contraseña
