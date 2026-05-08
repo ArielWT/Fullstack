@@ -1,5 +1,5 @@
 
-// 1 crear nomre
+// 1 Crear nombre
 let nombre = "Ariel";
 let apellido = "Wu";
 
