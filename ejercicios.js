@@ -3,14 +3,14 @@
 let nombre = "Ariel";
 let apellido = "Wu";
 
-console.log(nombre,apellido);
+console.log("Mi nombre es:",nombre,apellido);
 
 // 2 Crear Numeros
 let valor = 5;
 
 valor += 5;
 valor = valor*3;
-console.log("El resultado es: ",valor);
+console.log("El resultado de la suma y multiplicación del valor 5 es: ",valor);
 
 // 3 Comida favorita
 comida="Spaguetti a la bolognesa";
@@ -21,19 +21,20 @@ console.log("Mi comida favorita es:", comida);
 a = 10;
 b = 3;
 
-console.log("Suma:", a + b);
-console.log("Resta:", a - b);
-console.log("Multiplicación:", a * b);
-console.log("Módulo:", a % b);
+console.log("La suma entre a y b es:", a + b);
+console.log("La resta entre a y b es:", a - b);
+console.log("La multiplicación entre a y b es:", a * b);
+console.log("El módulo entre a y b es:", a % b);
 
 // Cambiando a strings
 a = "10";
 b = "3";
 
-console.log("Suma con strings:", a + b);
-console.log("Resta con strings:", a - b);
-console.log("Multiplicación con strings:", a * b);
-console.log("Módulo con strings:", a % b);
+console.log("La suma entre a y b es:", a + b);
+console.log("La resta entre a y b es:", a - b);
+console.log("La multiplicación entre a y b es:", a * b);
+console.log("El módulo entre a y b es:", a % b);
+
 
 // String y number
 a = "10";
@@ -46,14 +47,14 @@ console.log("Resta string - number:", a - b);
 // 5 Comparaciones de edad
 let edad = 15;
 
-console.log("¿Es mayor a 10?", edad > 10);
-console.log("¿Es menor a 18?", edad < 18);
+console.log("¿La edad 15 es mayor a 10?", edad > 10);
+console.log("¿La edad 15 es  menor a 18?", edad < 18);
 
 
 // 6 Uso de AND (&&)
 let numero = 8;
 
-console.log("¿Es mayor que 5 y menor que 10?", numero > 5 && numero < 10);
+console.log("¿El número 8 es mayor que 5 y menor que 10?", numero > 5 && numero < 10);
 
 
 // 7 Comparación de igualdad
@@ -72,7 +73,7 @@ console.log("¿La temperatura es mayor o igual a 30?", temperatura >= 30);
 let num1 = 20;
 let num2 = 15;
 
-console.log("¿Son iguales?", num1 === num2);
+console.log("¿El número 1 y 2 son iguales?", num1 === num2);
 console.log("¿número 1 es mayor que número 2?", num1 > num2);
 console.log("¿número 2 es mayor que número 1?", num2 > num1);
 
